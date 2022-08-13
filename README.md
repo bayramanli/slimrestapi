@@ -23,7 +23,7 @@ define('DBNAME','slimrestapi'); // veritabanı adı
 ![slimrestapi](https://github.com/bayramanli/slimrestapi/blob/master/images/siparis_silme.PNG)
 
 ### Tüm Siparişler için indirimleri listeleme
-![slimrestapi](https://github.com/bayramanli/slimrestapi/blob/master/images/tum_siparis_indirim_listeleme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/blob/master/images/tum_siparis_inidirim_listeleme.PNG)
 
 ### Tek Sipariş için indirimleri Listeleme
 ![slimrestapi](https://github.com/bayramanli/slimrestapi/blob/master/images/tek_siparis_indirim_listeleme.PNG)
