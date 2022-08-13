@@ -11,19 +11,19 @@ define('DBNAME','slimrestapi'); // veritabanı adı
 ```
 
 ### Sipariş Listeleme
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/siparis_listeleme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/siparis_listeleme.PNG)
 
 ### Sipariş Detayı
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/siparis_detayı.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/siparis_detayı.PNG)
 
 ### Sipariş Ekleme
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/siparis_ekleme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/siparis_ekleme.PNG)
 
 ### Sipariş Silme
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/siparis_silme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/siparis_silme.PNG)
 
 ### Tüm Siparişler için indirimleri listeleme
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/tum_siparis_indirim_listeleme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/tum_siparis_indirim_listeleme.PNG)
 
 ### Tek Sipariş için indirimleri Listeleme
-![admin panel user](https://github.com/bayramanli/slimrestapi/images/tek_siparis_indirim_listeleme.PNG)
+![slimrestapi](https://github.com/bayramanli/slimrestapi/images/tek_siparis_indirim_listeleme.PNG)
