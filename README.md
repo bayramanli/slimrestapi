@@ -14,6 +14,7 @@ define('DBNAME','slimrestapi'); // veritabanı adı
 ```
 Slim Rest Api.postman_collection.json dosyası POSTMAN'e yüklenerek test edilebilir.
 [Dosya](https://github.com/bayramanli/slimrestapi/blob/master/Slim%20Rest%20Api.postman_collection.json)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 ```
 ### API Links:
 ```
