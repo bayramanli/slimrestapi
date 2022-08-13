@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "c24be3f1-28bb-4898-8ff5-9814a3d8687b",
+		"name": "Slim Rest Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sipariş Ekleme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"customerId\": 3,\r\n    \"description\": \"\",\r\n    \"items\": [\r\n        {\r\n                \"productId\": 2,\r\n                \"quantity\": 6,\r\n                \"unitPrice\": \"11.28\",\r\n                \"total\": \"67.68\"\r\n            },\r\n            {\r\n                \"productId\": 1,\r\n                \"quantity\": 10,\r\n                \"unitPrice\": \"120.75\",\r\n                \"total\": \"1207.50\"\r\n            }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/slimrestapi/api/orders/add",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"orders",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sipariş Bilgilerini Alma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/orders/4",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"orders",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Siparişleri Listeleme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/orders",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sipariş Silme",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/orders/12",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"orders",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "İndirimleri Hesaplama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/discounts",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"discounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tüm Siparişler için İndirimleri Hesaplama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/discounts",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"discounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tek Sipariş için İndirimleri HEsaplama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/slimrestapi/api/discounts/5",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"slimrestapi",
+						"api",
+						"discounts",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
