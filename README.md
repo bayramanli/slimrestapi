@@ -9,6 +9,32 @@ define('DBUSER','root'); // veritabanı kullanıcı adı
 define('DBPASS',''); // veritabanı şifre
 define('DBNAME','slimrestapi'); // veritabanı adı
 ```
+### API Links:
+```
+Sipariş Listeleme:
+Link: localhost/slimrestapi/api/orders
+Metod: GET
+
+Sipariş Detayı:
+Link: localhost/slimrestapi/api/orders/4
+Metod: GET
+
+Sipariş Ekleme:
+Link: localhost/slimrestapi/api/orders/add
+Metod: POST
+
+Sipariş Silme:
+Link: localhost/slimrestapi/api/orders/9
+Metod: DELETE
+
+Tüm Siparişler için İndirimleri Listeleme
+Link: localhost/slimrestapi/api/discounts
+Metod: GET
+
+Tek Sipariş için İndirimleri Listeleme
+Link: localhost/slimrestapi/api/discounts/4
+Metod: GET
+```
 
 ### Sipariş Listeleme
 ![slimrestapi](https://github.com/bayramanli/slimrestapi/blob/master/images/siparis_listeleme.PNG)
