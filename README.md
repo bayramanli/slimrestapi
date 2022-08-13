@@ -9,6 +9,11 @@ define('DBUSER','root'); // veritabanı kullanıcı adı
 define('DBPASS',''); // veritabanı şifre
 define('DBNAME','slimrestapi'); // veritabanı adı
 ```
+
+### POSTMAN Collection
+```
+Slim Rest Api.postman_collection.json dosyası POSTMAN'e yüklenerek test edilebilir.
+```
 ### API Links:
 ```
 Sipariş Listeleme:
