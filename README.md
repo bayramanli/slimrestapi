@@ -1,1 +1,1 @@
-# slimrestapi
+# PHP Slim Framework RESTfull API
