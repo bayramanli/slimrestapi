@@ -12,27 +12,27 @@ define('DBNAME','slimrestapi'); // veritabanı adı
 ### API Links:
 ```
 Sipariş Listeleme:
-Link: localhost/slimrestapi/api/orders
+Link: slimrestapi/api/orders
 Metod: GET
 
 Sipariş Detayı:
-Link: localhost/slimrestapi/api/orders/4
+Link: slimrestapi/api/orders/4
 Metod: GET
 
 Sipariş Ekleme:
-Link: localhost/slimrestapi/api/orders/add
+Link: slimrestapi/api/orders/add
 Metod: POST
 
 Sipariş Silme:
-Link: localhost/slimrestapi/api/orders/9
+Link: slimrestapi/api/orders/9
 Metod: DELETE
 
 Tüm Siparişler için İndirimleri Listeleme
-Link: localhost/slimrestapi/api/discounts
+Link: slimrestapi/api/discounts
 Metod: GET
 
 Tek Sipariş için İndirimleri Listeleme
-Link: localhost/slimrestapi/api/discounts/4
+Link: slimrestapi/api/discounts/4
 Metod: GET
 ```
 
